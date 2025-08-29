@@ -6,4 +6,5 @@ debug
 foo.*
 *.log
 data
-lua/plugins/dash.lua
+/lua/plugins/dash.lua
+/lazy-lock.json
