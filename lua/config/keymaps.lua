@@ -31,3 +31,7 @@ vim.keymap.set("n", "<leader>pp", function()
   end
   require("pdfview").open(pdf_path)
 end, { desc = "Open current PDF via pdfview" })
+
+vim.keymap.set("n", "<leader>z", function()
+  require("snacks").toggle.zen()
+end, { desc = "Toggle Zen Mode" })
