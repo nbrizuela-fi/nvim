@@ -24,3 +24,10 @@ vim.o.shiftwidth = 4
 
 vim.opt.spelllang = { "es,en" }
 vim.opt.wrap = true
+
+vim.opt.guicursor = "i:hor20"
+
+vim.opt.foldcolumn = "0"
+vim.opt.signcolumn = "yes:1"
+vim.opt.numberwidth = 1
+vim.opt.statuscolumn = "%s%=%{v:relnum?v:relnum:v:lnum} "
