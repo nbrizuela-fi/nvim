@@ -82,6 +82,9 @@ local function set_transparent()
   vim.api.nvim_set_hl(0, "DiagnosticError", { fg = "#e06c75" })
   vim.api.nvim_set_hl(0, "DiagnosticUnderlineError", { sp = "#e06c75", underline = true })
   vim.api.nvim_set_hl(0, "SpellBad", { sp = "#e06c75", underline = true })
+  vim.api.nvim_set_hl(0, "cType", { fg = "#fac8d1" })
+  vim.api.nvim_set_hl(0, "cDefine", { fg = "#ffe19e" })
+  vim.api.nvim_set_hl(0, "cStructure", { fg = "#ffe19e" })
 end
 
 vim.api.nvim_create_autocmd("VimEnter", {
